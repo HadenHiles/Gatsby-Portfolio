@@ -41,6 +41,9 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
       <Inner>
+        <view style={{position: "absolute", zIndex: -1, top: "10%", right: "5%"}}>
+          <img src="/portrait.png" style={{alignSelf: "center", width: "500px", maxWidth: "100%", opacity: 0.4}} />
+        </view>
         <Intro />
       </Inner>
     </Content>

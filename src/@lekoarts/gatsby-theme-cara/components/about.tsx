@@ -38,9 +38,6 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
-        <view style={{float: "right", width: "35%", margin: "75px 10px"}}>
-          <img src="/portrait.png" style={{alignSelf: "center", maxWidth: "100%"}} />
-        </view>
         <AboutMDX />
       </Inner>
     </Content>
