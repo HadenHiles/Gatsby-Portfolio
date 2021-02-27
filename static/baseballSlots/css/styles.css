@@ -1,0 +1,28 @@
+body{
+    background: url('../assets/images/baseball-bg.jpg') fixed no-repeat center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+}
+.canvas_container{
+    position: relative;
+}
+canvas{
+    background: url("../assets/images/loading.gif") top center no-repeat #000;
+    background-position: 54%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0 20px 16px -16px #000;
+    -moz-box-shadow: 0 20px 16px -16px #000;
+    -ms-box-shadow: 0 20px 16px -16px #000;
+    -o-box-shadow: 0 20px 16px -16px #000;
+    box-shadow: 0 20px 16px -16px #000;
+}
